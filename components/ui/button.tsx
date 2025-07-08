@@ -20,7 +20,7 @@ export const Button: React.FC<ButtonProps> = ({
 
   return (
     <button
-      className={${baseStyle} ${variants[variant]} ${className}}
+      className={'${baseStyle} ${variants[variant]} ${className}}
       {...props}
     >
       {children}
